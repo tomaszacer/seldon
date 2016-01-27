@@ -1,0 +1,2 @@
+# seldon
+Modelowanie zachowań grupowych
