@@ -1,2 +1,2 @@
 # seldon
-Modelowanie zachowań grupowych
+Modelling group behaviour.
