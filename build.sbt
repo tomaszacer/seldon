@@ -19,8 +19,9 @@ mainClass in assembly := Some("pl.gigiel.seldon.SeldonApp")
 assemblyOption in assembly := (assemblyOption in assembly).value.copy(includeScala = true)
 
 // db
-libraryDependencies += "com.h2database" % "h2" % "1.4.191"
-libraryDependencies += "com.typesafe.slick" %% "slick" % "3.1.1"
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.1.3"
+libraryDependencies += "com.h2database" % "h2" % "1.4.191"
 libraryDependencies += "com.typesafe" % "config" % "1.3.0"
+libraryDependencies += "com.typesafe.slick" %% "slick" % "3.1.1"
+libraryDependencies += "com.typesafe.slick" % "slick-hikaricp_2.11" % "3.1.1"
 libraryDependencies += "org.joda" % "joda-convert" % "1.8.1"
